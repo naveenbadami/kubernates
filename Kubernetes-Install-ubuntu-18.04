@@ -79,7 +79,7 @@ Worker Node Setup:
 
 	    sudo hostnamectl set-hostname worker01
 
-	    kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef 1.2.3.4:6443
+	    kubeadm join --discovery-token abcdef.1234567890abcdef --discovery-token-ca-cert-hash sha256:1234..cdef 1.2.3.4:6443 - avilable in master node 
 
 	kubectl get nodes
 
